@@ -25,15 +25,16 @@ int main()
         std::cin >> year;
     }
     int intMonth = month;
+    int intYear = year;
     switch (intMonth) {
     case 1: std::cout << "31 days";
         break;
     case 2: {
-        if ((intMonth % 400) > 0.000000001 && (intMonth % 400) < 0.00000001) {
+        if ((intYear % 400) == 0) {
             std::cout << "29 days";
         }
         else {
-            if ((intMonth % 4) == 0) {
+            if ((intYear % 4) == 0) {
                 std::cout << "29 days";
             }
             else {
