@@ -15,7 +15,7 @@ int main()
         std::cin.ignore(256, '\n');
         std::cin >> month;
     }
-    std::cout << "Enter a year ";
+    std::cout << "\nEnter a year ";
     float year;
     std::cin >> year;
     while(year - floor(year ) > 0) {
@@ -27,43 +27,43 @@ int main()
     int intMonth = month;
     int intYear = year;
     switch (intMonth) {
-    case 1: std::cout << "31 days";
+    case 1: std::cout << "\n31 days\n";
         break;
     case 2: {
         if ((intYear % 400) == 0) {
-            std::cout << "29 days";
+            std::cout << "\n29 days\n";
         }
         else {
             if ((intYear % 4) == 0) {
-                std::cout << "29 days";
+                std::cout << "\n29 days\n";
             }
             else {
-                std::cout << "28 days";
+                std::cout << "\n28 days\n";
             }
         }
     }
         break;
-    case 3: std::cout << "31 days";
+    case 3: std::cout << "\n31 days\n";
         break;
-    case 4: std::cout << "30 days";
+    case 4: std::cout << "\n30 days\n";
         break;
-    case 5: std::cout << "31 days";
+    case 5: std::cout << "\n31 days\n";
         break;
-    case 6: std::cout << "30 days";
+    case 6: std::cout << "\n30 days\n";
         break;
-    case 7: std::cout << "31 days";
+    case 7: std::cout << "\n31 days\n";
         break;
-    case 8: std::cout << "31 days";
+    case 8: std::cout << "\n31 days\n";
         break;
-    case 9: std::cout << "30 days";
+    case 9: std::cout << "\n30 days\n";
         break;
-    case 10: std::cout << "31 days";
+    case 10: std::cout << "\n31 days\n";
         break;
-    case 11: std::cout << "30 days";
+    case 11: std::cout << "\n30 days\n";
         break;
-    case 12: std::cout << "31 days";
+    case 12: std::cout << "\n31 days\n";
         break;
-    default: std::cout << "Error";
+    default: std::cout << "\nError\n";
     }
 
     return 0;
