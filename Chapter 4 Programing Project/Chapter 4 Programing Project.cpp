@@ -23,7 +23,7 @@ int main()
         float radius;
         std::cin >> radius;
         while (radius < 0) {
-            std::cout << "Please enter a valid radius: ";
+            std::cout << "Please enter a valid radius:      ";
             std::cin.clear();
             std::cin.ignore(256, '\n');
             std::cin >> radius;
@@ -36,7 +36,7 @@ int main()
         float length;
         std::cin >> length;
         while (length < 0) {
-            std::cout << "Please enter a valid length: ";
+            std::cout << "Please enter a valid length:         ";
             std::cin.clear();
             std::cin.ignore(256, '\n');
             std::cin >> length;
@@ -45,7 +45,7 @@ int main()
         float width;
         std::cin >> width;
         while (width < 0) {
-            std::cout << "Please enter a valid width: ";
+            std::cout << "Please enter a valid width:          ";
             std::cin.clear();
             std::cin.ignore(256, '\n');
             std::cin >> width;
@@ -58,7 +58,7 @@ int main()
         float base;
         std::cin >> base;
         while (base < 0) {
-            std::cout << "Please enter a valid base: ";
+            std::cout << "Please enter a valid base:           ";
             std::cin.clear();
             std::cin.ignore(256, '\n');
             std::cin >> base;
@@ -67,7 +67,7 @@ int main()
         float height;
         std::cin >> height;
         while (height < 0) {
-            std::cout << "Please enter a valid height: ";
+            std::cout << "Please enter a valid height:         ";
             std::cin.clear();
             std::cin.ignore(256, '\n');
             std::cin >> height;
