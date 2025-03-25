@@ -15,7 +15,7 @@ int main()
         std::cin.ignore(256, '\n');
         std::cin >> month;
     }
-    std::cout << "\nEnter a year: ";
+    std::cout << "\nEnter a year:  ";
     float year;
     std::cin >> year;
     while(year - floor(year ) > 0) {
