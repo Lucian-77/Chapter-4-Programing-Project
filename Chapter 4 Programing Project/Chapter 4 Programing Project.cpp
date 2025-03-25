@@ -13,7 +13,7 @@ int main()
     while (choice < 1 || choice > 4) {
         std::cout << "Please enter a selection 1 - 4 ";
         std::cin.clear();
-        std::cin.ignore(256, \n);
+        std::cin.ignore(256, '\n');
         std::cin >> choice;
     }
 
