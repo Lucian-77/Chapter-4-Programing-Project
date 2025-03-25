@@ -1,4 +1,4 @@
-// Chapter 4 Programing Project.cpp : This file contains the 'Days' function. Program execution begins and ends there.
+// Chapter 4 Programing Project.cpp : This file contains the 'Month Days' function. Program execution begins and ends there.
 //
 
 #include <iostream>
